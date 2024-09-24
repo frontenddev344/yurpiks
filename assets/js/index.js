@@ -28,38 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
 AOS.init();
 // AOS JS Start
 
-// Accordion JS Start
-document.querySelectorAll('.accordion-header').forEach(button => {
-  button.addEventListener('click', () => {
-    const content = button.nextElementSibling;
-    const icon = button.querySelector('.icon');
 
-    button.classList.toggle('active');
-
-    if (content.style.height === '0px' || !content.style.height) {
-      content.style.height = content.scrollHeight + 'px';
-      content.style.opacity = '1';
-      icon.textContent = '−';
-
-
-      content.addEventListener('transitionend', function setHeightAuto() {
-        content.style.height = 'auto';
-        content.removeEventListener('transitionend', setHeightAuto);
-      });
-    } else {
-
-      content.style.height = content.scrollHeight + 'px';
-
-      content.offsetHeight;
-
-      content.style.height = '0';
-      content.style.opacity = '0';
-      icon.textContent = '+';
-    }
-  });
-});
-
-// Accordion JS End
 
 //Cookies JS Start
 const cookiesBox = document.querySelector('.wrapper'),
