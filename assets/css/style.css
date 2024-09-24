@@ -20,7 +20,7 @@ body {
     padding: 0;
     margin: 0;
     word-break: break-word;
-    background-color: #000;
+    background-color: #0e063d;
 }
 
 h1,
@@ -162,9 +162,9 @@ https://preview.themeforest.net/item/begam-online-gaming-tournaments-html-templa
 
 }
 
-.site-header.fixed-header {
+/* .site-header.fixed-header {
     background-color: #1f0644;
-}
+} */
 
 .main-navbar ul {
     display: flex;
@@ -328,24 +328,36 @@ h2.section-heading {
 
 
 /* Home Page Intro Text CSS Start */
-.pages-intro-text-section {}
-
-
-.pages-intro-text-wrapper {
-    max-width: 1150px;
+.pages-intro-wrapper {
+    max-width: 900px;
     margin: 0 auto;
-    padding: 0 20px;
+    border: 1px solid #fff;
+    padding: 20px;
     border-radius: 10px;
-    overflow: hidden;
 }
-
-.pages-intro-text-wrapper p {
-    margin-bottom: 10px;
-    text-align: center;
-    color: #fff;
+.pages-intro-wrapper p{
+color: #fff;
+font-size: 20px;
 }
 
 /* Home Page Intro Text CSS End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Cookies CSS Start */
