@@ -221,7 +221,7 @@ https://preview.themeforest.net/item/begam-online-gaming-tournaments-html-templa
     transform-origin: bottom left;
 }
 
-.main-navbar ul li a.active {}
+
 
 .close-icon {
     display: none;
@@ -244,7 +244,7 @@ https://preview.themeforest.net/item/begam-online-gaming-tournaments-html-templa
 h2.section-heading {
     font-size: 40px;
     line-height: 1.5;
-
+    line-height: normal;
     margin: 0 auto;
 }
 
@@ -329,7 +329,7 @@ h2.section-heading {
 
 /* Banner Section  CSS End */
 
-h2.section-heading{
+h2.section-heading {
     text-align: center;
     font-size: 60px;
 }
@@ -543,15 +543,28 @@ h2.section-heading{
     margin-top: 20px;
 }
 
-.our-prediction-wrapper ,.prop-prediction-wrapper{
+.our-prediction-wrapper,
+.prop-prediction-wrapper,
+.home-decision-wrapper {
     color: #fff;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 10px;
 }
-.our-prediction-wrapper h2,.prop-prediction-wrapper h2 {
-    color:#00FADF;
+
+.our-prediction-wrapper h2,
+.prop-prediction-wrapper h2,
+.home-decision-wrapper h2 {
+    color: #00FADF;
 }
-.our-prediction-wrapper p,.prop-prediction-wrapper p {
-font-size: 17px;
+
+.our-prediction-wrapper p,
+.prop-prediction-wrapper p,
+.home-decision-wrapper p {
+    font-size: 17px;
+    margin-bottom: 10px;
 }
+
 .brand-logo-wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -570,8 +583,9 @@ font-size: 17px;
     background: linear-gradient(351.09deg, #F029A0 4.36%, #F0B000 117.5%);
     transition: 0.4s all ease-in-out;
 }
-.brand-logos:hover{
-transform: translateY(-4px);
+
+.brand-logos:hover {
+    transform: translateY(-4px);
 }
 
 .brand-logos img {
@@ -583,54 +597,55 @@ transform: translateY(-4px);
 
 
 
-.how-we-compare-cards-wrapper {
+.prop-prediction-cards-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
 
-.how-we-compare-cards {
+.prop-prediction-cards {
     width: 30%;
     padding: 20px;
-    background-color:#00FADF;
+    background-color: #00FADF;
     background-image: linear-gradient(to left,
             transparent,
             transparent 50%,
             #fff 50%);
     background-position: 100% 0;
     background-size: 200% 100%;
-    transition: all .5s ease-in;
+    transition: all .45s ease-in;
     border-radius: 10px;
     overflow: hidden;
     min-height: 230px;
     border: 1px solid #658cf6;
 }
 
-.how-we-compare-cards:hover {
+.prop-prediction-cards:hover {
     background-position: 0 0;
-    box-shadow:#00FADF 0px 6px 15px;
+    box-shadow: #00FADF 0px 6px 15px;
     transform: translateY(-1px);
 }
-.how-we-compare-content p{
+
+.prop-prediction-content p {
     color: #000;
-      font-size: 17px;
-      font-weight: 500;
+    font-size: 17px;
+    font-weight: 500;
 }
-.how-we-compare-cards-wrapper>p {
+
+.prop-prediction-cards-wrapper>p {
     color: #000;
     max-width: 800px;
     margin: 0 auto;
     font-weight: 500;
 }
 
-.how-we-compare-icons img {
+.prop-prediction-icons img {
     height: 70px;
     width: 70px;
     object-fit: cover;
 }
 
-    
 
 
 
@@ -644,6 +659,77 @@ transform: translateY(-4px);
 
 
 
+
+/* Home Page newsletter CSS Start */
+.pages-newsletter-section {
+    background-image: url("../images/pages-newsletter-bg.jpg");
+    background-color: rgba(0 0 0/70%);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    backdrop-filter: blur(1px);
+}
+
+.pages-newsletter-wrapper {
+    text-align: center;
+    padding: 30px 0;
+    background-color: transparent;
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+}
+
+.pages-newsletter-wrapper h3 {
+    padding: 0 10px;
+    font-size: 30px;
+}
+
+.pages-newsletter-input-wrapper {
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+input.pages-newsletter-input {
+    width: 40%;
+    display: inline-block;
+    font-size: 16px;
+    padding: 13px 25px;
+    outline: none;
+    border: 1px solid #fff;
+    line-height: 20px;
+    border-radius: 25px 0 0 25px;
+    font-weight: 600;
+}
+
+.pages-newsletter-submit-button {
+    display: inline-block;
+    padding: 13px 25px;
+    font-size: 16px;
+    color: #fff;
+    outline: none;
+    margin-left: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    border: 1px solid transparent;
+    transition: 0.3s all ease-in-out;
+    line-height: 20px;
+    border-radius: 0 25px 25px 0;
+    position: relative;
+    background: linear-gradient(351.09deg, #F029A0 4.36%, #F0B000 117.5%);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+
+.pages-newsletter-wrapper h3 {
+    font-size: 25px;
+    max-width: 1000px;
+    margin: 0 auto 20px auto;
+    line-height: normal;
+    font-weight: 700;
+    color: #fff;
+}
+
+/* Home Page newsletter CSS End */
 
 
 /* Cookies CSS Start */
