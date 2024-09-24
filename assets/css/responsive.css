@@ -21,11 +21,13 @@
 }
 
 @media screen and (max-width:480px) {
-   
-    
+   .form-modal{
+      width:100%;
+  }   
    
   
   
    
 
 }
+
