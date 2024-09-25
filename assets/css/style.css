@@ -412,7 +412,7 @@ h2.section-heading {
 .form-modal .signup {
     background: linear-gradient(351.09deg, #F029A0 4.36%, #F0B000 117.5%);
     color: #fff;
-    transition: 0.4s all ease-in-out;
+    transition: 0.3s all ease-in-out;
 }
 
 .form-modal .login:hover,
