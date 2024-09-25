@@ -11,6 +11,9 @@
    .pages-newsletter-wrapper h3 {
       font-size: 35px;
    }
+   .prediction-group-image img {
+      height: 350px;
+   }
 
 }
 
@@ -79,9 +82,18 @@ input.pages-newsletter-input {
 .social-icons {
    justify-content: left;
 }
-
-
-
+.prediction-group-text h3 {
+   font-size: 28px;
+}
+.prediction-group-text p {
+   font-size: 17px;
+}
+.prediction-group-image img {
+   height: 300px;
+}
+.prediction-group-image img {
+   object-position: center;
+}
 
 }
 
@@ -243,7 +255,18 @@ input.pages-newsletter-input {
 .footer-connect,.footer-links{
    width: 45%;
 }
-
+.prediction-group-image, .prediction-group-text{
+   width: 100%;
+}
+.prediction-group-text h3 {
+   font-size: 26px;
+}
+.prediction-group-text p {
+   font-size: 16px;
+}
+.prediction-group-image img {
+   height: 250px;
+}
 
 }
 
@@ -403,6 +426,18 @@ input.pages-newsletter-input {
 .footer-items h3 {
    font-size: 26px;
 }
+.prediction-group-text h3 {
+   font-size: 24px;
+}
+.prediction-group-text p {
+   font-size: 15px;
+}
+.preiction-group {
+   padding: 15px;
+}
+.prediction-group-image img {
+   height: 220px;
+}
 
 }
 
@@ -535,7 +570,17 @@ input.pages-newsletter-input {
 .lg-btm a img {
    max-width: 170px;
 }
-
-
+.prediction-group-text {
+   padding: 20px 5px;
+}
+.prediction-group-text h3 {
+   font-size: 22px;
+}
+.prediction-group-text p {
+   font-size: 14px;
+}
+.preiction-group {
+   padding: 10px;
+}
 
 }
