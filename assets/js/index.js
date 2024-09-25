@@ -30,6 +30,14 @@ AOS.init();
 
 
 // Singup/SignIn JS Start
+function toggleLogin(){
+  document.getElementById("login-toggle").style.backgroundColor="#00FADF";
+  document.getElementById("login-toggle").style.color="#000";
+  document.getElementById("signup-toggle").style.backgroundColor="#fff";
+  document.getElementById("signup-toggle").style.color="#000";
+  document.getElementById("signup-form").style.display="none";
+  document.getElementById("login-form").style.display="block";
+}
 function toggleSignup(){
   document.getElementById("login-toggle").style.backgroundColor="#fff";
    document.getElementById("login-toggle").style.color="#000";
@@ -38,14 +46,7 @@ function toggleSignup(){
    document.getElementById("login-form").style.display="none";
    document.getElementById("signup-form").style.display="block";
 }
-function toggleLogin(){
-   document.getElementById("login-toggle").style.backgroundColor="#00FADF";
-   document.getElementById("login-toggle").style.color="#000";
-   document.getElementById("signup-toggle").style.backgroundColor="#fff";
-   document.getElementById("signup-toggle").style.color="#000";
-   document.getElementById("signup-form").style.display="none";
-   document.getElementById("login-form").style.display="block";
-}
+
 // Singup/SignIn JS End
 
 
