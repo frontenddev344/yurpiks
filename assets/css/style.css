@@ -1213,6 +1213,14 @@ span.heading-like {
 }
 
 /* nfnbkjnk */
+.prediction-group-section{
+    background-image: url("../images/our-prediction-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .preiction-group {
     display: flex;
     justify-content: center;

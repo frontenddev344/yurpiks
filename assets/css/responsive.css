@@ -94,6 +94,9 @@ input.pages-newsletter-input {
 .prediction-group-image img {
    object-position: center;
 }
+.copyright p {
+   font-size: 14px;
+}
 
 }
 
@@ -267,6 +270,9 @@ input.pages-newsletter-input {
 .prediction-group-image img {
    height: 250px;
 }
+.copyright p {
+   font-size: 13px;
+}
 
 }
 
@@ -438,6 +444,9 @@ input.pages-newsletter-input {
 .prediction-group-image img {
    height: 220px;
 }
+.copyright p {
+   font-size: 12px;
+}
 
 }
 
@@ -582,5 +591,10 @@ input.pages-newsletter-input {
 .preiction-group {
    padding: 10px;
 }
-
+.copyright p {
+   font-size: 11px;
+}
+.pages-newsletter-wrapper {
+padding: 1px 0;
+}
 }
