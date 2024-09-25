@@ -5,6 +5,9 @@
    h2.section-heading {
       font-size: 53px;
    }
+   .pages-signup2-wrapper h3 {
+      font-size: 28px;
+   }
 
 }
 
@@ -30,6 +33,15 @@
    .prop-prediction-cards {
       min-height: 250px;
    }
+   .pages-signup2-wrapper h3 {
+      font-size: 24px;
+   }
+   #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact select, #contact button[type="submit"] {
+      width: 90%;
+  }
+  .our-tips-card {
+   height: 350px;
+}
 
 
 }
@@ -100,6 +112,63 @@
    .prop-prediction-cards {
       min-height: 325px;
   }
+  .pages-signup2-wrapper h3 {
+   font-size: 24px;
+}
+.form-image,
+.form-container {
+    width: 100%;
+}
+
+.contact-us-group ul li a,
+.contact-us-group p a {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact select {
+    padding: 12px;
+    font-size: 14px;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact select,
+#contact button[type="submit"] {
+    width: 100%;
+}
+
+#contact button[type="submit"] {
+    width: 30%;
+    padding: 13px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.contact-us-group a img {
+    height: 22px;
+    width: 22px;
+}
+.form-container {
+    margin-top: 30px;
+}
+.sports-play-cards {
+   width: 48%;
+}
+.our-tips-card {
+   height: 300px;
+}
+
+
+
 
 
 }
@@ -157,6 +226,60 @@ h2.section-heading {
    margin-bottom: 0px;
    text-align: center;
 }
+.pages-signup2-wrapper h3 {
+   font-size: 22px;
+}.contact-us-group h3 {
+   font-size: 40px;
+}
+
+.contact-us-group p,
+.contact-us-group ul li {
+   font-size: 14px;
+}
+
+.contact-us-group ul li a,
+.contact-us-group p a {
+   font-size: 15px;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact select {
+   padding: 12px;
+   font-size: 13px;
+}
+
+#contact button[type="submit"] {
+   width: 35%;
+   padding: 13px;
+   font-size: 14px;
+   font-weight: 600;
+}
+
+#contact {
+   padding: 0;
+}
+
+.contact-us-group a img {
+   height: 20px;
+   width: 20px;
+}
+.sports-play-text h3 {
+   font-size: 22px;
+}
+.sports-play-image img {
+   width: 50px;
+   height: 50px;
+}
+.sports-play-cards {
+   width: 47%;
+}
+.our-tips-card {
+   height: 250px;
+}
 
 
 }
@@ -199,7 +322,58 @@ h2.section-heading {
    margin-bottom: 30px;
    text-align: center;
 }
+.pages-signup2-wrapper h3 {
+   font-size: 20px;
+}
+#contact {
+   padding: 0;
+}
 
+.form-container {
+   padding: 30px 5px;
+}
+
+.contact-us-group h3 {
+   font-size: 35px;
+}
+
+.contact-us-group p,
+.contact-us-group ul li {
+   font-size: 13px;
+}
+
+.contact-us-group ul li a,
+.contact-us-group p a {
+   font-size: 14px;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact select {
+   padding: 10px;
+   font-size: 12px;
+}
+
+#contact button[type="submit"] {
+   width: 40%;
+   padding: 12px;
+   font-size: 14px;
+   font-weight: 600;
+}
+
+.contact-us-group a img {
+   height: 17px;
+   width: 17px;
+}
+.sports-play-cards {
+   width: 100%;
+}
+.our-tips-card {
+   height: 220px;
+}
 
 
 }

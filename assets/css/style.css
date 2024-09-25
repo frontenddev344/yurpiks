@@ -803,7 +803,6 @@ fieldset {
 
 .sports-play-cards-wrapper {
     display: flex;
-    align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
 }
@@ -849,13 +848,18 @@ fieldset {
     height: 100%;
     width: 100%;
 }
+.our-tips-card-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
 
 .our-tips-cards-text a {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: rgba(0 0 0/80%);
+    background: rgba(0 0 0/70%);
     height: 100%;
     width: 100%;
     display: flex;
