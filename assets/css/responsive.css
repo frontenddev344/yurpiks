@@ -232,6 +232,9 @@ input.pages-newsletter-input {
 .disclaimer-wrapper h3 {
    font-size: 27px;
 }
+.lg-btm a img {
+   max-width: 190px;
+}
 
 .logo-bottom {
    width: 100%;
