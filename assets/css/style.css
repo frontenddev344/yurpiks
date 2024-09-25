@@ -637,6 +637,9 @@ h2.section-heading {
     box-shadow: #00FADF 0px 6px 15px;
     transform: translateY(-1px);
 }
+.prop-prediction-icons {
+    margin-bottom: 15px;
+}
 
 .prop-prediction-content p {
     color: #000;

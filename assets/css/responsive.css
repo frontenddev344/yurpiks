@@ -24,6 +24,12 @@
    .our-prediction-wrapper p, .prop-prediction-wrapper p, .home-decision-wrapper p {
       font-size: 16px;
    }
+   .prop-prediction-content p {
+      font-size: 16px;
+   }
+   .prop-prediction-cards {
+      min-height: 250px;
+   }
 
 
 }
@@ -87,6 +93,13 @@
    h2.section-heading {
       font-size: 40px;
    }
+   .prop-prediction-content p {
+      font-size: 16px;
+      font-weight: 600;   
+   }
+   .prop-prediction-cards {
+      min-height: 325px;
+  }
 
 
 }
@@ -125,6 +138,25 @@ h2.section-heading {
    font-size: 15px;
 }
 
+.prop-prediction-content p {
+   font-size: 15px;
+
+}
+.prop-prediction-icons img {
+   height: 60px;
+   width: 60px;
+}
+.prop-prediction-cards {
+   width: 48%;
+   min-height: 270px;
+   margin-bottom: 30px;
+}
+.prop-prediction-cards:last-child{
+   width: 100%;
+   min-height: 0;
+   margin-bottom: 0px;
+   text-align: center;
+}
 
 
 }
@@ -158,6 +190,16 @@ h2.section-heading {
    height: 100%;
    width: 100%;
 }
+.prop-prediction-content p {
+   font-size: 14px;
+}
+.prop-prediction-cards {
+   width: 100%;
+   min-height: 0;
+   margin-bottom: 30px;
+   text-align: center;
+}
+
 
 
 }
