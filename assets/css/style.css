@@ -1267,7 +1267,6 @@ span.heading-like {
     margin-bottom: 15px;
     text-underline-offset: 5px;
     transition: 0.8s all ease-in-out;
-    text-decoration: underline;
 }
 
 .prediction-group-text p {
