@@ -67,6 +67,21 @@ input.pages-newsletter-input {
 .disclaimer-wrapper h3 {
    font-size: 29px;
 }
+.social-icons i {
+   width: 35px;
+   height: 35px;
+}.footer-items h3 {
+   font-size: 28px;
+}
+.footer-items h3 {
+    text-align: left; 
+}
+.social-icons {
+   justify-content: left;
+}
+
+
+
 
 }
 
@@ -218,6 +233,13 @@ input.pages-newsletter-input {
    font-size: 27px;
 }
 
+.logo-bottom {
+   width: 100%;
+   margin-bottom: 30px;
+}
+.footer-connect,.footer-links{
+   width: 45%;
+}
 
 
 }
@@ -372,6 +394,11 @@ input.pages-newsletter-input {
 
 .logo-bottom img {
    max-width: 250px;
+}
+
+
+.footer-items h3 {
+   font-size: 26px;
 }
 
 }

@@ -1022,7 +1022,7 @@ input.pages-newsletter-input {
     padding-bottom: 30px;
     overflow: hidden;
     width: 100%;
-    max-width: 1000px;
+    /* max-width: 1000px; */
 }
 
 .logo-bottom img {
@@ -1181,13 +1181,13 @@ input.pages-newsletter-input {
 
 /* Social Icons CSS End */
 
-.disclaimer{
+.disclaimer {
     background-image: url("../images/disclaimer-bg.png");
     background-repeat: no-repeat;
-     background-color: rgb(40 11 112/80%);
-    background-blend-mode:multiply ; 
+    background-color: rgb(40 11 112/80%);
+    background-blend-mode: multiply;
+    background-size: cover;
 }
-
 .disclaimer-wrapper h3 {
     color: #00FADF;
     font-size: 30px;
