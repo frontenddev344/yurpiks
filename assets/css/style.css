@@ -543,7 +543,10 @@ h2.section-heading {
 
 .site-image-wrapper h3 {
     color: #fff;
-    margin-top: 20px;
+    font-size: 30px;
+    max-width: 900px;
+    margin: 20px auto 0 auto;
+    font-weight: 700    ;
 }
 
 .our-prediction-wrapper,
