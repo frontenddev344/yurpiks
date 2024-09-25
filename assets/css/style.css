@@ -1024,7 +1024,7 @@ input.pages-newsletter-input {
     padding-bottom: 30px;
     overflow: hidden;
     width: 100%;
-    max-width: 1000x;
+    max-width: 1000px;
 }
 
 .logo-bottom img {
@@ -1182,6 +1182,13 @@ input.pages-newsletter-input {
 }
 
 /* Social Icons CSS End */
+
+.disclaimer{
+    background-image: url("../images/disclaimer-bg.png");
+    background-repeat: no-repeat;
+     background-color: #280B70;
+    background-blend-mode:multiply ; 
+}
 
 .disclaimer-wrapper h3 {
     color: #00FADF;
