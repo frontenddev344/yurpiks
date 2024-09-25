@@ -77,6 +77,10 @@ img {
     padding: 0 15px;
 }
 
+.py-3 {
+    padding: 30px 0;
+}
+
 .py-5 {
     padding: 50px 0;
 }
@@ -246,6 +250,7 @@ h2.section-heading {
     line-height: 1.5;
     line-height: normal;
     margin: 0 auto;
+    color: #00FADF;
 }
 
 /* Section Heading CSS End */
@@ -352,7 +357,7 @@ h2.section-heading {
 /* Home Page Intro Text CSS End */
 
 /* Home Page Signup Form CSS Start */
-.home-signup-section {
+.pages-signup-section {
     background-image: url("../images/form-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -360,8 +365,6 @@ h2.section-heading {
     background-color: rgba(0 0 0/60%);
     background-blend-mode: multiply;
 }
-
-
 
 .form-modal {
     position: relative;
@@ -646,10 +649,265 @@ h2.section-heading {
     object-fit: cover;
 }
 
+/* Home Second Signup CSS Start */
+.pages-signup2-wrapper h3 {
+    color: #fff;
+    font-size: 30px;
+}
+
+.form-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.form-image {
+    width: 40%;
+    overflow: hidden;
+}
+
+.form-image img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.form-container {
+    width: 60%;
+    padding: 20px;
+    background-image: url("../images/form-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0 0 0/50%);
+    background-blend-mode: multiply;
+}
+
+.form-wrapper {
+    height: 100%;
+    width: 100%;
+}
+
+#contact {
+    background-image: url("../images/how-we-compare-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 25px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    height: 100%;
+}
+
+fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact select,
+#contact button[type="submit"] {
+    width: 80%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact input[type="url"]:hover,
+#contact textarea:hover,
+#contact select:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
+}
 
 
+#contact textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+}
 
+#contact select {
+    max-width: 100%;
+    color: #888;
+    outline: none;
+}
 
+#contact button[type="submit"] {
+    cursor: pointer;
+    border: none;
+    color: #000;
+    margin: 0 0 5px;
+    width: 25%;
+    padding: 15px 30px;
+    font-size: 17px;
+    transition: 0.4s all ease-in-out;
+    background: linear-gradient(351.09deg, #F029A0 4.36%, #F0B000 117.5%);
+}
+
+#contact button[type="submit"]:hover {
+    box-shadow: #fff 0px 5px 10px;
+}
+
+#contact button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.copyright {
+    text-align: center;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+    outline: 0;
+    border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder,
+::-webkit-select-placeholder {
+    color: #888;
+}
+
+:-moz-placeholder {
+    color: #888;
+}
+
+:-ms-input-placeholder {
+    color: #888;
+}
+
+/* Home Second Signup CSS Start */
+
+.sports-play-cards-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sports-play-cards {
+    width: 32%;
+    background: linear-gradient(351.09deg, #F029A0 4.36%, #F0B000 117.5%);
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    transition: 0.3s all ease-in-out;
+}
+
+.sports-play-cards:hover {
+    transform: translateY(-5px);
+}
+
+.sports-play-image {
+    text-align: center;
+}
+
+.sports-play-image img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+.sports-play-text h3 {
+    color: #ffff;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+/* nklds */
+
+.our-tips-card {
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+.our-tips-card-image {
+    height: 100%;
+    width: 100%;
+}
+
+.our-tips-cards-text a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0 0 0/80%);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-tips-cards-text h3 {
+    font-size: 40px;
+    color: #fff;
+}
+
+/* njndkjfn  */
+
+.about-us-cards-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-us-cards {
+    width: 20%;
+    border: 1px solid #fff;
+    padding: 25px;
+    border-radius: 20px;
+    min-height: 200px;
+    text-align: center;
+    box-shadow: #00FADF 0px 7px 6px, #F0B000 0px 7px 6px;
+    transition: 0.4s all ease-in-out;
+}
+
+.about-us-cards:nth-child(2) {
+    margin: 0 30px;
+}
+
+.about-us-cards:hover {
+    box-shadow: #fff 0px 7px 10px;
+    transform: translatey(-2px);
+}
+
+.about-cards-icon {
+
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.about-cards-icon img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    text-align: center;
+}
+
+.about-us-cards h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* dfjkldnkl */
 
 
 
@@ -701,7 +959,7 @@ input.pages-newsletter-input {
     font-weight: 600;
 }
 
-.pages-newsletter-submit-button {
+.butn {
     display: inline-block;
     padding: 13px 25px;
     font-size: 16px;
@@ -716,12 +974,15 @@ input.pages-newsletter-input {
     border-radius: 0 25px 25px 0;
     position: relative;
     background: linear-gradient(351.09deg, #F029A0 4.36%, #F0B000 117.5%);
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.butn:hover {
+    box-shadow: #fff 0px 5px 10px;
 }
 
 
 .pages-newsletter-wrapper h3 {
-    font-size: 25px;
+    font-size: 35 px;
     max-width: 1000px;
     margin: 0 auto 20px auto;
     line-height: normal;
@@ -730,6 +991,257 @@ input.pages-newsletter-input {
 }
 
 /* Home Page newsletter CSS End */
+
+/* Footer CSS Start */
+.footer {
+    width: 100%;
+    background-image: url("../images/footer-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 1000x;
+}
+
+.logo-bottom img {
+    width: 100%;
+}
+
+.lg-btm {
+    width: 100%;
+}
+
+.lg-btm a {
+    width: 100%;
+}
+
+.lg-btm a img {
+    width: 100%;
+    object-fit: cover;
+    max-width: 240px;
+}
+
+.logo-bottom {
+    width: 20%;
+}
+
+.footer-items {
+    width: 30%;
+}
+
+.footer-items h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    text-align: center;
+    color: #00fadf;
+}
+
+.footer-links h3 {
+    text-align: left;
+}
+
+.footer-items .social-icons {
+    width: 100%;
+    margin: 15px auto;
+}
+
+
+.footer-items ul li a {
+    padding: 3px 0;
+}
+
+.footer .footer-items ul li a {
+    transition: 0.6s all ease;
+    font-size: 17px;
+    position: relative;
+    color: #fff;
+}
+
+.footer .footer-items ul li a:hover {
+    color: #00fadf;
+}
+
+
+.footer .footer-items ul li a:after {
+    display: block;
+    content: '';
+    border-bottom: solid 1px #00fadf;
+    transition: all 300ms ease-in-out;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 0%;
+}
+
+.footer-items ul li a:hover:after {
+    width: 100%;
+}
+
+.footer .footer-items ul li a:hover {
+    transform: translateX(3px);
+}
+
+.footer-icons {
+    min-width: 20px;
+    margin-right: 6px;
+}
+
+.copyright {
+    padding: 15px 0;
+    text-align: center;
+    margin: auto 0;
+    border-top: 1px solid #00fadf;
+}
+
+.copyright p {
+    color: #fff;
+    text-align: center;
+}
+
+.ssl-certificate img {
+    max-width: 180px;
+}
+
+/* Footer CSS End */
+
+
+/* Social Icons CSS Start */
+.social-icons {
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+
+}
+
+.social-icons i {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 17px;
+    background-color: #00fadf;
+    color: #000;
+    line-height: normal;
+    margin: 0 5px;
+    transition: 0.3s all ease-in-out;
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.social-icons i:hover {
+    transform: translateY(-2px);
+    color: #fff;
+}
+
+.social-icons i.facebook:hover {
+    background-color: #116af9;
+    box-shadow: #fff 0px 4px 8px;
+}
+
+.social-icons i.twitter:hover {
+    background-color: #1da1f2;
+    box-shadow: #fff 0px 4px 8px;
+}
+
+.social-icons i.instagram:hover {
+    background-color: #da1090;
+    box-shadow: #fff 0px 2px 4px;
+}
+
+/* Social Icons CSS End */
+
+.disclaimer-wrapper h3 {
+    color: #00FADF;
+    font-size: 30px;
+}
+
+.disclaimer-wrapper p {
+    color: #fff;
+    margin-bottom: 10px;
+    line-height: 1.7;
+}
+
+span.heading-like {
+    font-weight: 700;
+    color: #00FADF;
+}
+
+.disclaimer ol li::marker {
+    color: #00FADF;
+}
+
+/* nfnbkjnk */
+.preiction-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 5px solid #00FADF;
+    border-radius: 10px;
+    transition: 0.5s all ease-in-out;
+}
+
+.preiction-group:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+.prediction-group-image {
+    width: 40%;
+    overflow: hidden;
+}
+
+.prediction-group-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s all ease-in-out;
+}
+.preiction-group:hover .prediction-group-image img{
+    transform: scale(1.05);
+}
+
+.prediction-group-text {
+    padding: 20px;
+    width: 60%;
+}
+
+.prediction-group-text h3 {
+    font-size: 30px;
+    color: #00FADF;
+    margin-bottom: 15px;
+    text-underline-offset: 5px;
+    transition: 0.8s all ease-in-out;
+}
+.preiction-group:hover .prediction-group-text h3{
+    text-decoration: underline;
+}
+
+
+
+.prediction-group-text p {
+    font-size: 20px;
+    color: #fff;
+}
+
+
+
+
+
 
 
 /* Cookies CSS Start */
