@@ -555,6 +555,7 @@ h2.section-heading {
     margin: 20px auto 0 auto;
     font-weight: 700;
     text-align: center;
+    padding: 0 5px;
 }
 
 .our-prediction-wrapper,
@@ -566,17 +567,13 @@ h2.section-heading {
     padding: 0 10px;
 }
 
-.our-prediction-wrapper h2,
-.prop-prediction-wrapper h2,
-.home-decision-wrapper h2 {
-    color: #00FADF;
-}
 
 .our-prediction-wrapper p,
 .prop-prediction-wrapper p,
 .home-decision-wrapper p {
     font-size: 17px;
     margin-bottom: 10px;
+    margin-top: 20px;
 }
 
 .brand-logo-wrapper {

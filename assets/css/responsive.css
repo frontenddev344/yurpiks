@@ -1,10 +1,29 @@
-@media screen and (max-width:1200px) {}
+@media screen and (max-width:1200px) {
+   .site-image-wrapper img {
+      height: 360px;
+   }
+   h2.section-heading {
+      font-size: 53px;
+   }
+
+}
 
 @media screen and (max-width:991px) {
    .pages-intro-wrapper p {
       font-size: 18px;
    }
-
+   .site-image-wrapper img {
+      height: 320px;
+   }
+   .site-image-wrapper h3 {
+      font-size: 27px;
+   }
+   h2.section-heading {
+      font-size: 48px;
+   }
+   .our-prediction-wrapper p, .prop-prediction-wrapper p, .home-decision-wrapper p {
+      font-size: 16px;
+   }
 
 
 }
@@ -59,15 +78,17 @@
    .pages-intro-wrapper p {
       font-size: 17px;
    }
+   .site-image-wrapper img {
+      height: 280px;
+   }
+   .site-image-wrapper h3 {
+      font-size: 24px;
+   }
+   h2.section-heading {
+      font-size: 40px;
+   }
 
 
-
-   .footer-items h3 {
-      font-size: 23px;
-  }
-  .footer-items h3 {
-      text-align: left;
-  }
 }
 
 @media screen and (max-width:575px) {
@@ -91,32 +112,21 @@
 #signup-form button{
    width: 60%;
 }
-
-
-
-
-
-.footer-items {
-   width: 50%;
+.site-image-wrapper img {
+   height: 240px;
+}
+.site-image-wrapper h3 {
+   font-size: 21px;
+}
+h2.section-heading {
+   font-size: 35px;
+}
+.our-prediction-wrapper p, .prop-prediction-wrapper p, .home-decision-wrapper p {
+   font-size: 15px;
 }
 
-.logo-bottom {
-   width: 100%;
-   margin-bottom: 30px;
-}
 
-.footer .footer-items ul li a {
-   font-size: 16px;
-}
 
-.footer-items h3 {
-   font-size: 24px;
-}
-
-.copyright p {
-   font-weight: 600;
-   font-size: 14px;
-}
 }
 
 @media screen and (max-width:480px) {
@@ -132,28 +142,22 @@
 .pages-intro-wrapper p {
    font-size: 15px;
 }
-
-
-
-.footer-items {
+.site-image-wrapper img {
+   height: 200px;
+}
+.site-image-wrapper h3 {
+   font-size: 18px;
+}
+h2.section-heading {
+   font-size: 30px;
+}
+.our-prediction-wrapper p, .prop-prediction-wrapper p, .home-decision-wrapper p {
+   font-size: 14px;
+}
+.brand-logos {
+   height: 100%;
    width: 100%;
-   text-align: center;
-   margin-bottom: 30px;
 }
 
-.footer-items:last-child {
-   margin-bottom: 0;
-}
 
-.footer-items h3 {
-   text-align: center;
-}
-
-.copyright p {
-   font-size: 13px;
-}
-
-.footer .footer-items ul li a {
-   font-size: 15px;
-}
 }
