@@ -935,9 +935,7 @@ fieldset {
 
 /* Home Page newsletter CSS Start */
 .pages-newsletter-section {
-    background-image: url("../images/pages-newsletter-bg.jpg");
-    background-color: rgba(0 0 0/70%);
-    background-blend-mode: multiply;
+    background-image: url("../images/footer-bg.png");
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -1186,7 +1184,7 @@ input.pages-newsletter-input {
 .disclaimer{
     background-image: url("../images/disclaimer-bg.png");
     background-repeat: no-repeat;
-     background-color: #280B70;
+     background-color: rgb(40 11 112/80%);
     background-blend-mode:multiply ; 
 }
 
