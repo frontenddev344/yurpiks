@@ -50,7 +50,7 @@
       font-size: 24px;
    }
    #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact select, #contact button[type="submit"] {
-      width: 90%;
+      width: 100%;
   }
   .our-tips-card {
    height: 350px;
