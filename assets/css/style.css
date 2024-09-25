@@ -749,9 +749,9 @@ fieldset {
 #contact button[type="submit"] {
     cursor: pointer;
     border: none;
-    color: #000;
+    color: #fff;
     margin: 0 0 5px;
-    width: 25%;
+    width: 30%;
     padding: 15px 30px;
     font-size: 17px;
     transition: 0.4s all ease-in-out;
@@ -1182,6 +1182,7 @@ input.pages-newsletter-input {
 span.heading-like {
     font-weight: 700;
     color: #00FADF;
+    margin-right: 5px;
 }
 
 .disclaimer ol li::marker {
@@ -1391,15 +1392,16 @@ span.heading-like {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 20px 5px;
+}
+.contact-page-content-wrapper #contact {
+    height: auto;
 }
 .right_side_first,.left_side {
     width: 50%;
 }
-
-
-
 .contact_section h3 {
-    font-size: 22px;
+    font-size: 30px;
     text-align: left;
     line-height: 30px;
     margin-top: 20px;
@@ -1407,13 +1409,6 @@ span.heading-like {
     color: #fff;
 }
 
-.contact_section h2 {
-    font-size: 24px;
-    text-align: center;
-    padding: 0;
-    margin-bottom: 20px;
-    color: #fff;
-}
 input.form-control.sub_btn {
     width: 200px;
     padding: 10px;
@@ -1428,7 +1423,7 @@ input.form-control.sub_btn:hover {
     color: #fff;
 }
 
-.row.mb-4.email {
+.email {
     display: flex;
     align-items: center;
     justify-content: center;

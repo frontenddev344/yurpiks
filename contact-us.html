@@ -72,9 +72,10 @@
     <section class="contact_section  pb-5">
         <div class="container">
             <div class="sub-pages-group">
+                <h2 class="section-heading">Contact Information</h2>
                 <div class="contact-page-content-wrapper">
                     <div class="left_side">
-                        <h3>Contact Information</h3>
+                   
                         <h3 class="mb-1">Email:</h3>
                         <p>For general inquiries, please email us at: <a
                                 href="mailto:info@yurpiks.com"><b>info@yurpiks.com</b></a></p>
@@ -86,8 +87,8 @@
                             <div class="social-icons">
                                 <div>
                                     <div class="footer-social-icons">
-                                        <a href="#"><i class="fa-brands fa-facebook-f facebook"></i></a>                            
-                                        <a href="#"><i class="fa-brands fa-x-twitter twitter"></i></a>                                        
+                                        <a href="#"><i class="fa-brands fa-facebook-f facebook"></i></a>
+                                        <a href="#"><i class="fa-brands fa-x-twitter twitter"></i></a>
                                         <a href="#"><i class="fa-brands fa-linkedin fa-fw linkedin"></i></i></a>
                                         <a href="#"><i class="fa-brands fa-instagram instagram"></i></a>
                                     </div>
@@ -101,36 +102,41 @@
                         <h3>Send Us a Message</h3>
                         <p class="my-3">Fill out the form below and one of our representatives will get back to you as
                             soon as possible.</p>
-                        <form action="#">
-                            <div class="div mb-4">
-                                <input type="text" placeholder="Name" class="form-control">
-                            </div>
-                            <div class="div  mb-4">
-                                <input type="email" placeholder="Email Address" class="form-control me-2" required>
-                            </div>
-                            <div class="div  mb-4">
-                                <input type="number" placeholder="Phone Number" class="form-control" required>
-                            </div>
-                            <div class="div mb-4">
-                                <select id="dropdown" name="role" class="form-control" required>
-                                    <option disabled selected value>Subject</option>
-                                    <option value="General Inquiry">General Inquiry</option>
-                                    <option value="Support Request">Support Request</option>
-                                    <option value="Feedback">Feedback</option>
-                                    <option value="Partnership Opportunity">Partnership Opportunity</option>
-                                    <option value="other">Other</option>
-                                </select>
-                            </div>
-                            <div class="div">
-                                <input type="Submit" value="Submit" class="form-control sub_btn">
-                            </div>
-                        </form>
+                        <div class="form-wrapper">
+                            <form id="contact" action="#" method="post">
+                                <fieldset>
+                                    <input id="contact-form" placeholder="Your Name" type="text" tabindex="1" required>
+                                </fieldset>
+                                <fieldset>
+                                    <input placeholder="Your Email" type="email" tabindex="2" required>
+                                </fieldset>
+                                <fieldset>
+                                    <input placeholder="Your Number" type="email" tabindex="3">
+                                </fieldset>
+                                <fieldset>
+                                    <select id="dropdown" name="role" class="form-control" required>
+                                        <option disabled selected value>Subject</option>
+                                        <option value="General Inquiry">General Inquiry</option>
+                                        <option value="Support Request">Support Request</option>
+                                        <option value="Feedback">Feedback</option>
+                                        <option value="Partnership Opportunity">Partnership Opportunity</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </fieldset>
+                                <fieldset>
+                                    <button name="submit" type="submit" id="contact-submit" class="butn"
+                                        data-submit="...Sending">Sign Up</button>
+                                </fieldset>
+                            </form>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- Contact Us Page Intro Section End -->
+
 
     <!-- Footer Start -->
     <footer class="footer pt-5">
@@ -147,7 +153,7 @@
                     <div class="social-icons">
                         <div>
                             <div class="footer-social-icons">
-                                <a href="#"><i class="fa-brands fa-facebook-f facebook"></i></a>                     
+                                <a href="#"><i class="fa-brands fa-facebook-f facebook"></i></a>
                                 <a href="#"><i class="fa-brands fa-x-twitter twitter"></i></a>
                                 <a href="#"><i class="fa-brands fa-linkedin fa-fw linkedin"></i></i></a>
                                 <a href="#"><i class="fa-brands fa-instagram instagram"></i></a>
