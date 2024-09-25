@@ -14,6 +14,13 @@
    .prediction-group-image img {
       height: 350px;
    }
+   .contact_section  #contact button[type="submit"] {
+      width: 40%;
+   }
+   .left_side {
+      padding: 10px;
+  }
+   
 
 }
 
