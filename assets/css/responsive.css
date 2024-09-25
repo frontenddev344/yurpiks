@@ -51,7 +51,22 @@
 .pages-newsletter-wrapper h3 {
    font-size: 33px;
 }
+input.pages-newsletter-input {
+   width: 45%;
+   font-size: 15px;
+   padding: 12px 25px;
+}
 
+.pages-newsletter-submit-button {
+   padding: 12px 20px;
+   font-size: 15px;
+}
+.disclaimer-wrapper p {
+   font-size: 15px;
+}
+.disclaimer-wrapper h3 {
+   font-size: 29px;
+}
 
 }
 
@@ -183,7 +198,7 @@
 }
 .about-us-cards {
    width: 47%;
-   min-height: 170px;
+   min-height: 190px;
    margin-bottom: 30px;
    height: 100%;
 }
@@ -196,7 +211,12 @@
 .pages-newsletter-wrapper h3 {
    font-size: 28px;
 }
-
+input.pages-newsletter-input {
+   width: 55%;
+}
+.disclaimer-wrapper h3 {
+   font-size: 27px;
+}
 
 
 
@@ -316,6 +336,25 @@ h2.section-heading {
    font-size: 25px;
 }
 
+input.pages-newsletter-input {
+   width: 90%;
+   font-size: 14px;
+   padding: 11px 20px;
+   border-radius: 25px;
+}
+
+.pages-newsletter-submit-button {
+   border-radius: 25px;
+   margin-top: 12px;
+   font-size: 14px;
+   padding: 12px 40px;
+}
+.disclaimer-wrapper p {
+   font-size: 14px;
+}
+.disclaimer-wrapper h3 {
+   font-size: 25px;
+}
 
 }
 
@@ -421,5 +460,17 @@ h2.section-heading {
 .pages-newsletter-wrapper h3 {
    font-size: 22px;
 }
+input.pages-newsletter-input {
+   padding: 10px 20px;
+}
+.pages-newsletter-submit-button {
+   border-radius: 25px;
+   margin-top: 12px;
+   padding: 10px 30px;
+}
+.disclaimer-wrapper h3 {
+   font-size: 23px;
+}
+
 
 }
