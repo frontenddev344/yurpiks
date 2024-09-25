@@ -877,12 +877,13 @@ fieldset {
 .about-us-cards-wrapper {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .about-us-cards {
-    width: 20%;
+    width: 30%;
     border: 1px solid #fff;
     padding: 25px;
     border-radius: 20px;
@@ -996,7 +997,7 @@ input.pages-newsletter-input {
 
 
 .pages-newsletter-wrapper h3 {
-    font-size: 35 px;
+    font-size: 35px;
     max-width: 1000px;
     margin: 0 auto 20px auto;
     line-height: normal;
@@ -1185,6 +1186,9 @@ input.pages-newsletter-input {
 .disclaimer-wrapper h3 {
     color: #00FADF;
     font-size: 30px;
+}
+.disclaimer-wrapper {
+    padding: 15px;
 }
 
 .disclaimer-wrapper p {
