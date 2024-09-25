@@ -694,7 +694,7 @@ h2.section-heading {
 }
 
 .form-wrapper {
-    height: 100%;
+    height: auto;
     width: 100%;
 }
 
@@ -703,7 +703,7 @@ h2.section-heading {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    padding: 25px;
+    padding: 25px 0;
     height: 100%;
 }
 
