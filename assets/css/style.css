@@ -1442,3 +1442,114 @@ span.heading-like {
 }
 
 /* Cookies CSS End */
+/* contact form satrt */
+.contact_section h3 {
+    font-size: 22px;
+    text-align: left;
+    line-height: 30px;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.contact_section h2 {
+    font-size: 24px;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.contact_section {
+    padding: 80px 0;
+}
+
+input.form-control.sub_btn {
+    width: 200px;
+    padding: 10px;
+    background-color: var(--secondary-color);
+    color: #000;
+    border: 1px solid #000;
+    transition: all 0.5s;
+}
+
+input.form-control.sub_btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.row.mb-4.email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.row.email p a {
+    color: #000;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    line-height: 28px;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.banner_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: var(--main-color);
+    width: 80%;
+    transform: translate(-50%, -50%);
+    color: var(--primary-color);
+}
+
+.contact_social {
+    margin: 10px 0;
+}
+
+.contact_social ul {
+    display: flex;
+}
+
+.contact_social ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+.right_side_first {
+    padding: 30px;
+}
+
+.contact_social ul li {
+    float: left;
+    margin-right: 10px !important;
+}
+
+.contact_social ul li a {
+    text-align: center;
+    border: 0px;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    font-size: 18px;
+    color: var(--primary-color);
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #000;
+    background: var(--secondary-color);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_social ul li a:hover {
+    background: transparent;
+    border: 1px solid #0e46a31a;
+    color: var(--primary-color);
+}
