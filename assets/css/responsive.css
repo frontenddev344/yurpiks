@@ -317,6 +317,9 @@ input.pages-newsletter-input {
 .sub-pages-group {
    padding: 20px 10px;
 }
+.sub-pages-group h3 {
+   font-size: 27px;
+}
 
 
 }
@@ -504,6 +507,9 @@ input.pages-newsletter-input {
 .sub-pages-group p {
    font-size: 14px;
 }
+.sub-pages-group h3 {
+   font-size: 23px;
+}
 
 }
 
@@ -668,6 +674,9 @@ padding: 1px 0;
    padding: 10px;
 }
 .contact_section h3 {
+   font-size: 23px;
+}
+.sub-pages-group h3 {
    font-size: 23px;
 }
 
