@@ -342,9 +342,9 @@ h2.section-heading {
 
 /* Home Page Intro Text CSS Start */
 .pages-intro-wrapper {
-    max-width: 900px;
+    max-width: 1100px;
     margin: 0 auto;
-    border: 1px solid #fff;
+    box-shadow: #00fadf 0px 50px 100px -20px,#F0B000 0px 30px 60px -30px, #00FADF 0px -2px 6px 0px;
     padding: 20px;
     border-radius: 10px;
 }
