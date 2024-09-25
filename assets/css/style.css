@@ -204,6 +204,10 @@ https://preview.themeforest.net/item/begam-online-gaming-tournaments-html-templa
 .main-navbar ul li a:hover {
     color: #00FADF;
 }
+.main-navbar ul li a.active:after {
+    color: #00FADF;
+    transform: scaleX(1);
+}
 
 
 .main-navbar ul li a::after {
@@ -227,13 +231,15 @@ https://preview.themeforest.net/item/begam-online-gaming-tournaments-html-templa
 
 
 
+
+
 .close-icon {
     display: none;
 }
 
 .menu-icon {
     display: none;
-    color: #fa009f;
+    color: #00FADF;
     width: 30px;
     text-align: right;
     cursor: pointer;
