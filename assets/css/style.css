@@ -1435,7 +1435,13 @@ span.heading-like {
 .left_side {
     width: 50%;
 }
-
+.contact_section{
+    background-image: url("../images/sub-pages-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 .contact_section h3 {
     font-size: 30px;
     text-align: left;
