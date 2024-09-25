@@ -410,13 +410,14 @@ h2.section-heading {
 
 .form-modal .login,
 .form-modal .signup {
-    background: #00FADF;
-    color: #000;
+    background: linear-gradient(351.09deg, #F029A0 4.36%, #F0B000 117.5%);
+    color: #fff;
 }
 
 .form-modal .login:hover,
 .form-modal .signup:hover {
-    background: #222;
+    box-shadow: #00FADF 0px 5px 10px;
+
 }
 
 .form-toggle {
