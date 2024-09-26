@@ -105,44 +105,6 @@ img {
 .mb-4 {
     margin-bottom: 35px;
 }
-
-/* colors
-#00FADF headings and icons and shdow menu icon
-#ff5f00  buttons
-#fff for some headings too
-
-.btn {
-    position: relative;
-    padding: 11px 32px;
-    background: linear-gradient(351.09deg, #F029A0 4.36%, #F0B000 117.5%);
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-}
-
-.cmn-btn::before {
-    content: "";
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: -100%;
-    background: linear-gradient(351.09deg, #F0B000 4.36%, #F029A0 117.5%);
-    z-index: -1;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-}
-
-.cmn-btn:hover::before {
-    left: 0;
-    transition: all 0.5s ease;
-}
-
-refrence theme 
-
-https://preview.themeforest.net/item/begam-online-gaming-tournaments-html-template/full_screen_preview/33740600?_ga=2.226170969.259321675.1726721418-154049816.1719381000&_gac=1.124778872.1726467419.Cj0KCQjwi5q3BhCiARIsAJCfuZm8hFzgJNDiCWxb7B30YWxnWlj-VjBrRWWavUp2nf5yBualqFnf5sgaAioKEALw_wcB
- */
-
-
 /* Global CSS End */
 
 
