@@ -1559,6 +1559,8 @@ input.form-control.sub_btn:hover {
     font-weight: 600;
     color: #fff;
     text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .buttons {

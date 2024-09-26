@@ -2,25 +2,31 @@
    .site-image-wrapper img {
       height: 360px;
    }
+
    h2.section-heading {
       font-size: 53px;
    }
+
    .pages-signup2-wrapper h3 {
       font-size: 28px;
    }
+
    .pages-newsletter-wrapper h3 {
       font-size: 35px;
    }
+
    .prediction-group-image img {
       height: 350px;
    }
-   .contact_section  #contact button[type="submit"] {
+
+   .contact_section #contact button[type="submit"] {
       width: 40%;
    }
+
    .left_side {
       padding: 10px;
-  }
-   
+   }
+
 
 }
 
@@ -28,100 +34,150 @@
    .pages-intro-wrapper p {
       font-size: 18px;
    }
+
    .site-image-wrapper img {
       height: 320px;
    }
+
    .site-image-wrapper h3 {
       font-size: 27px;
    }
+
    h2.section-heading {
       font-size: 48px;
    }
-   .our-prediction-wrapper p, .prop-prediction-wrapper p, .home-decision-wrapper p {
+
+   .our-prediction-wrapper p,
+   .prop-prediction-wrapper p,
+   .home-decision-wrapper p {
       font-size: 16px;
    }
+
    .prop-prediction-content p {
       font-size: 16px;
    }
+
    .prop-prediction-cards {
       min-height: 250px;
    }
+
    .pages-signup2-wrapper h3 {
       font-size: 24px;
    }
-   #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact select, #contact button[type="submit"] {
-      width: 100%;
-  }
-  .our-tips-card {
-   height: 350px;
-}
-.our-tips-cards-text h3 {
-   font-size: 28px;
-}
-.pages-newsletter-wrapper h3 {
-   font-size: 33px;
-}
-input.pages-newsletter-input {
-   width: 45%;
-   font-size: 15px;
-   padding: 12px 25px;
-}
 
-.pages-newsletter-submit-button {
-   padding: 12px 20px;
-   font-size: 15px;
-}
-.disclaimer-wrapper p {
-   font-size: 15px;
-}
-.disclaimer-wrapper h3 {
-   font-size: 29px;
-}
-.social-icons i {
-   width: 35px;
-   height: 35px;
-}.footer-items h3 {
-   font-size: 28px;
-}
-.footer-items h3 {
-    text-align: left; 
-}
-.social-icons {
-   justify-content: left;
-}
-.prediction-group-text h3 {
-   font-size: 28px;
-}
-.prediction-group-text p {
-   font-size: 17px;
-}
-.prediction-group-image img {
-   height: 300px;
-}
-.prediction-group-image img {
-   object-position: center;
-}
-.copyright p {
-   font-size: 14px;
-}
-.pages-banner-text h1 {
-   font-size: 50px;
-}
-.pages-banner-image {
-   height: 390px;
-}
-.contact_section h3 {
-   font-size: 29px;
-}
-.sub-pages-group p {
-   font-size: 16px;
-}
-.right_side_first {
-   padding: 15px 0;
-}
-#contact {
-   padding: 20px 5px;
-}
+   #contact input[type="text"],
+   #contact input[type="email"],
+   #contact input[type="tel"],
+   #contact input[type="url"],
+   #contact textarea,
+   #contact select,
+   #contact button[type="submit"] {
+      width: 100%;
+   }
+
+   .our-tips-card {
+      height: 350px;
+   }
+
+   .our-tips-cards-text h3 {
+      font-size: 28px;
+   }
+
+   .pages-newsletter-wrapper h3 {
+      font-size: 33px;
+   }
+
+   input.pages-newsletter-input {
+      width: 45%;
+      font-size: 15px;
+      padding: 12px 25px;
+   }
+
+   .pages-newsletter-submit-button {
+      padding: 12px 20px;
+      font-size: 15px;
+   }
+
+   .disclaimer-wrapper p {
+      font-size: 15px;
+   }
+
+   .disclaimer-wrapper h3 {
+      font-size: 29px;
+   }
+
+   .social-icons i {
+      width: 35px;
+      height: 35px;
+   }
+
+   .footer-items h3 {
+      font-size: 28px;
+   }
+
+   .footer-items h3 {
+      text-align: left;
+   }
+
+   .social-icons {
+      justify-content: left;
+   }
+
+   .prediction-group-text h3 {
+      font-size: 28px;
+   }
+
+   .prediction-group-text p {
+      font-size: 17px;
+   }
+
+   .prediction-group-image img {
+      height: 300px;
+   }
+
+   .prediction-group-image img {
+      object-position: center;
+   }
+
+   .copyright p {
+      font-size: 14px;
+   }
+
+   .pages-banner-text h1 {
+      font-size: 50px;
+   }
+
+   .pages-banner-image {
+      height: 390px;
+   }
+
+   .contact_section h3 {
+      font-size: 29px;
+   }
+
+   .sub-pages-group p {
+      font-size: 16px;
+   }
+
+   .right_side_first {
+      padding: 15px 0;
+   }
+
+   #contact {
+      padding: 20px 5px;
+   }
+
+   /* Cookies CSS Start */
+   .info p {
+      font-size: 14px;
+   }
+
+   .button {
+      width: calc(55% / 2 - 10px);
+      font-size: 14px;
+   }
+
+   /* Cookies CSS End */
 
 }
 
@@ -144,23 +200,23 @@ input.pages-newsletter-input {
       flex-direction: column;
       justify-content: center;
       overflow: hidden;
-  }
+   }
 
-  .menuToggle .main-navbar {
+   .menuToggle .main-navbar {
       transform: translateY(0);
       justify-content: flex-start;
-  }
+   }
 
-  .main-navbar ul {
+   .main-navbar ul {
       flex-direction: column;
 
-  }
+   }
 
-  .menu-icon {
+   .menu-icon {
       display: block;
-  }
+   }
 
-  .close-icon {
+   .close-icon {
       position: absolute;
       top: 20px;
       right: 20px;
@@ -168,348 +224,448 @@ input.pages-newsletter-input {
       color: #fff;
       text-align: end;
       z-index: 55;
-  }
-   .logo img {
-         max-width: 200px;
    }
+
+   .logo img {
+      max-width: 200px;
+   }
+
    .pages-intro-wrapper p {
       font-size: 17px;
    }
+
    .site-image-wrapper img {
       height: 280px;
    }
+
    .site-image-wrapper h3 {
       font-size: 24px;
    }
+
    h2.section-heading {
       font-size: 40px;
    }
+
    .prop-prediction-content p {
       font-size: 16px;
-      font-weight: 600;   
+      font-weight: 600;
    }
+
    .prop-prediction-cards {
       min-height: 325px;
-  }
-  .pages-signup2-wrapper h3 {
-   font-size: 24px;
-}
-.form-image,
-.form-container {
-    width: 100%;
-}
+   }
 
-.contact-us-group ul li a,
-.contact-us-group p a {
-    font-size: 16px;
-    font-weight: 500;
-}
+   .pages-signup2-wrapper h3 {
+      font-size: 24px;
+   }
 
-#contact input[type="text"],
-#contact input[type="email"],
-#contact input[type="tel"],
-#contact input[type="url"],
-#contact textarea,
-#contact select {
-    padding: 12px;
-    font-size: 14px;
-}
+   .form-image,
+   .form-container {
+      width: 100%;
+   }
 
-#contact input[type="text"],
-#contact input[type="email"],
-#contact input[type="tel"],
-#contact input[type="url"],
-#contact textarea,
-#contact select,
-#contact button[type="submit"] {
-    width: 100%;
-}
+   .contact-us-group ul li a,
+   .contact-us-group p a {
+      font-size: 16px;
+      font-weight: 500;
+   }
 
-#contact button[type="submit"] {
-    width: 30%;
-    padding: 13px;
-    font-size: 15px;
-    font-weight: 600;
-}
+   #contact input[type="text"],
+   #contact input[type="email"],
+   #contact input[type="tel"],
+   #contact input[type="url"],
+   #contact textarea,
+   #contact select {
+      padding: 12px;
+      font-size: 14px;
+   }
 
-.contact-us-group a img {
-    height: 22px;
-    width: 22px;
-}
-.form-container {
-    margin-top: 30px;
-}
-.sports-play-cards {
-   width: 48%;
-}
-.our-tips-card {
-   height: 300px;
-}
-.our-tips-cards-text h3 {
-   font-size: 26px;
-}
-.about-us-cards:nth-child(2) {
-   margin: 0 auto 30px auto;
-}
-.about-us-cards {
-   width: 47%;
-   min-height: 190px;
-   margin-bottom: 30px;
-   height: 100%;
-}
-.about-us-cards:last-child{
-   width: 100%;
-}
-.about-us-cards-wrapper {
-   justify-content: space-between;
-}
-.pages-newsletter-wrapper h3 {
-   font-size: 28px;
-}
-input.pages-newsletter-input {
-   width: 55%;
-}
-.disclaimer-wrapper h3 {
-   font-size: 27px;
-}
-.lg-btm a img {
-   max-width: 190px;
-}
+   #contact input[type="text"],
+   #contact input[type="email"],
+   #contact input[type="tel"],
+   #contact input[type="url"],
+   #contact textarea,
+   #contact select,
+   #contact button[type="submit"] {
+      width: 100%;
+   }
 
-.logo-bottom {
-   width: 100%;
-   margin-bottom: 30px;
-}
-.footer-connect,.footer-links{
-   width: 45%;
-}
-.prediction-group-image, .prediction-group-text{
-   width: 100%;
-}
-.prediction-group-text h3 {
-   font-size: 26px;
-}
-.prediction-group-text p {
-   font-size: 16px;
-}
-.prediction-group-image img {
-   height: 250px;
-}
-.copyright p {
-   font-size: 13px;
-}
-.pages-banner-text h1 {
-   font-size: 45px;
-}
-.pages-banner-image {
-   height: 350px;
-}
-.contact_section h3 {
-   font-size: 27px;
-}
-.sub-pages-group p {
-   font-size: 15px;
-}
-.right_side_first, .left_side {
-   width: 100%;
-}
+   #contact button[type="submit"] {
+      width: 30%;
+      padding: 13px;
+      font-size: 15px;
+      font-weight: 600;
+   }
 
-.sub-pages-group {
-   padding: 20px 10px;
-}
-.sub-pages-group h3 {
-   font-size: 27px;
-}
+   .contact-us-group a img {
+      height: 22px;
+      width: 22px;
+   }
 
+   .form-container {
+      margin-top: 30px;
+   }
+
+   .sports-play-cards {
+      width: 48%;
+   }
+
+   .our-tips-card {
+      height: 300px;
+   }
+
+   .our-tips-cards-text h3 {
+      font-size: 26px;
+   }
+
+   .about-us-cards:nth-child(2) {
+      margin: 0 auto 30px auto;
+   }
+
+   .about-us-cards {
+      width: 47%;
+      min-height: 190px;
+      margin-bottom: 30px;
+      height: 100%;
+   }
+
+   .about-us-cards:last-child {
+      width: 100%;
+   }
+
+   .about-us-cards-wrapper {
+      justify-content: space-between;
+   }
+
+   .pages-newsletter-wrapper h3 {
+      font-size: 28px;
+   }
+
+   input.pages-newsletter-input {
+      width: 55%;
+   }
+
+   .disclaimer-wrapper h3 {
+      font-size: 27px;
+   }
+
+   .lg-btm a img {
+      max-width: 190px;
+   }
+
+   .logo-bottom {
+      width: 100%;
+      margin-bottom: 30px;
+   }
+
+   .footer-connect,
+   .footer-links {
+      width: 45%;
+   }
+
+   .prediction-group-image,
+   .prediction-group-text {
+      width: 100%;
+   }
+
+   .prediction-group-text h3 {
+      font-size: 26px;
+   }
+
+   .prediction-group-text p {
+      font-size: 16px;
+   }
+
+   .prediction-group-image img {
+      height: 250px;
+   }
+
+   .copyright p {
+      font-size: 13px;
+   }
+
+   .pages-banner-text h1 {
+      font-size: 45px;
+   }
+
+   .pages-banner-image {
+      height: 350px;
+   }
+
+   .contact_section h3 {
+      font-size: 27px;
+   }
+
+   .sub-pages-group p {
+      font-size: 15px;
+   }
+
+   .right_side_first,
+   .left_side {
+      width: 100%;
+   }
+
+   .sub-pages-group {
+      padding: 20px 10px;
+   }
+
+   .sub-pages-group h3 {
+      font-size: 27px;
+   }
+
+   /* Cookies CSS Start */
+   .wrapper {
+      padding: 20px 10px;
+   }
+
+   .info p {
+      font-size: 13px;
+   }
+
+   .button {
+      font-size: 13px;
+      padding: 6px;
+   }
+
+   /* Cookies CSS End */
 
 }
 
 @media screen and (max-width:575px) {
    .logo img {
       max-width: 180px;
-  }
-  .pages-intro-wrapper p {
-   font-size: 16px;
-}
-.form-toggle button {
-   font-size: 15px;
-}
-.form-modal input {
-   width: 100%;
-   font-size: 15px;
-}
-#login-form button, #signup-form button {
-   width: 40%;
-   font-size: 14px;
-}
-#signup-form button{
-   width: 60%;
-}
-.site-image-wrapper img {
-   height: 240px;
-}
-.site-image-wrapper h3 {
-   font-size: 21px;
-}
-h2.section-heading {
-   font-size: 35px;
-}
-.our-prediction-wrapper p, .prop-prediction-wrapper p, .home-decision-wrapper p {
-   font-size: 15px;
-}
+   }
 
-.prop-prediction-content p {
-   font-size: 15px;
+   .pages-intro-wrapper p {
+      font-size: 16px;
+   }
 
-}
-.prop-prediction-icons img {
-   height: 60px;
-   width: 60px;
-}
-.prop-prediction-cards {
-   width: 48%;
-   min-height: 270px;
-   margin-bottom: 30px;
-}
-.prop-prediction-cards:last-child{
-   width: 100%;
-   min-height: 0;
-   margin-bottom: 0px;
-   text-align: center;
-}
-.pages-signup2-wrapper h3 {
-   font-size: 22px;
-}.contact-us-group h3 {
-   font-size: 40px;
-}
+   .form-toggle button {
+      font-size: 15px;
+   }
 
-.contact-us-group p,
-.contact-us-group ul li {
-   font-size: 14px;
-}
+   .form-modal input {
+      width: 100%;
+      font-size: 15px;
+   }
 
-.contact-us-group ul li a,
-.contact-us-group p a {
-   font-size: 15px;
-}
+   #login-form button,
+   #signup-form button {
+      width: 40%;
+      font-size: 14px;
+   }
 
-#contact input[type="text"],
-#contact input[type="email"],
-#contact input[type="tel"],
-#contact input[type="url"],
-#contact textarea,
-#contact select {
-   padding: 12px;
-   font-size: 13px;
-}
+   #signup-form button {
+      width: 60%;
+   }
 
-#contact button[type="submit"] {
-   width: 35%;
-   padding: 13px;
-   font-size: 14px;
-   font-weight: 600;
-}
+   .site-image-wrapper img {
+      height: 240px;
+   }
 
-#contact {
-   padding: 0;
-}
+   .site-image-wrapper h3 {
+      font-size: 21px;
+   }
 
-.contact-us-group a img {
-   height: 20px;
-   width: 20px;
-}
-.sports-play-text h3 {
-   font-size: 22px;
-}
-.sports-play-image img {
-   width: 50px;
-   height: 50px;
-}
-.sports-play-cards {
-   width: 47%;
-}
-.our-tips-card {
-   height: 250px;
-}
-.our-tips-cards-text h3 {
-   font-size: 24px;
-}
-.pages-newsletter-wrapper h3 {
-   font-size: 25px;
-}
+   h2.section-heading {
+      font-size: 35px;
+   }
 
-input.pages-newsletter-input {
-   width: 90%;
-   font-size: 14px;
-   padding: 11px 20px;
-   border-radius: 25px;
-}
+   .our-prediction-wrapper p,
+   .prop-prediction-wrapper p,
+   .home-decision-wrapper p {
+      font-size: 15px;
+   }
 
-.pages-newsletter-submit-button {
-   border-radius: 25px;
-   margin-top: 12px;
-   font-size: 14px;
-   padding: 12px 40px;
-}
-.disclaimer-wrapper p {
-   font-size: 14px;
-}
-.disclaimer-wrapper h3 {
-   font-size: 25px;
-}
-.links a {
-   margin: 0;
-   padding-bottom: 10px;
-   display: block;
-   font-size: 17px;
-}
+   .prop-prediction-content p {
+      font-size: 15px;
 
-.links a:last-child {
-   padding-bottom: 0;
-}
+   }
 
-.links-social {
-   align-items: flex-start;
-}
+   .prop-prediction-icons img {
+      height: 60px;
+      width: 60px;
+   }
 
-.logo-bottom img {
-   max-width: 250px;
-}
+   .prop-prediction-cards {
+      width: 48%;
+      min-height: 270px;
+      margin-bottom: 30px;
+   }
+
+   .prop-prediction-cards:last-child {
+      width: 100%;
+      min-height: 0;
+      margin-bottom: 0px;
+      text-align: center;
+   }
+
+   .pages-signup2-wrapper h3 {
+      font-size: 22px;
+   }
+
+   .contact-us-group h3 {
+      font-size: 40px;
+   }
+
+   .contact-us-group p,
+   .contact-us-group ul li {
+      font-size: 14px;
+   }
+
+   .contact-us-group ul li a,
+   .contact-us-group p a {
+      font-size: 15px;
+   }
+
+   #contact input[type="text"],
+   #contact input[type="email"],
+   #contact input[type="tel"],
+   #contact input[type="url"],
+   #contact textarea,
+   #contact select {
+      padding: 12px;
+      font-size: 13px;
+   }
+
+   #contact button[type="submit"] {
+      width: 35%;
+      padding: 13px;
+      font-size: 14px;
+      font-weight: 600;
+   }
+
+   #contact {
+      padding: 0;
+   }
+
+   .contact-us-group a img {
+      height: 20px;
+      width: 20px;
+   }
+
+   .sports-play-text h3 {
+      font-size: 22px;
+   }
+
+   .sports-play-image img {
+      width: 50px;
+      height: 50px;
+   }
+
+   .sports-play-cards {
+      width: 47%;
+   }
+
+   .our-tips-card {
+      height: 250px;
+   }
+
+   .our-tips-cards-text h3 {
+      font-size: 24px;
+   }
+
+   .pages-newsletter-wrapper h3 {
+      font-size: 25px;
+   }
+
+   input.pages-newsletter-input {
+      width: 90%;
+      font-size: 14px;
+      padding: 11px 20px;
+      border-radius: 25px;
+   }
+
+   .pages-newsletter-submit-button {
+      border-radius: 25px;
+      margin-top: 12px;
+      font-size: 14px;
+      padding: 12px 40px;
+   }
+
+   .disclaimer-wrapper p {
+      font-size: 14px;
+   }
+
+   .disclaimer-wrapper h3 {
+      font-size: 25px;
+   }
+
+   .links a {
+      margin: 0;
+      padding-bottom: 10px;
+      display: block;
+      font-size: 17px;
+   }
+
+   .links a:last-child {
+      padding-bottom: 0;
+   }
+
+   .links-social {
+      align-items: flex-start;
+   }
+
+   .logo-bottom img {
+      max-width: 250px;
+   }
 
 
-.footer-items h3 {
-   font-size: 26px;
-}
-.prediction-group-text h3 {
-   font-size: 24px;
-}
-.prediction-group-text p {
-   font-size: 15px;
-}
-.preiction-group {
-   padding: 15px;
-}
-.prediction-group-image img {
-   height: 220px;
-}
-.copyright p {
-   font-size: 12px;
-}
-.pages-banner-text h1 {
-   font-size: 40px;
-}
-.pages-banner-image {
-   height: 290px;
-}
-.contact_section h3 {
-   font-size: 25px;
-}
-.sub-pages-group p {
-   font-size: 14px;
-}
-.sub-pages-group h3 {
-   font-size: 23px;
-}
+   .footer-items h3 {
+      font-size: 26px;
+   }
+
+   .prediction-group-text h3 {
+      font-size: 24px;
+   }
+
+   .prediction-group-text p {
+      font-size: 15px;
+   }
+
+   .preiction-group {
+      padding: 15px;
+   }
+
+   .prediction-group-image img {
+      height: 220px;
+   }
+
+   .copyright p {
+      font-size: 12px;
+   }
+
+   .pages-banner-text h1 {
+      font-size: 40px;
+   }
+
+   .pages-banner-image {
+      height: 290px;
+   }
+
+   .contact_section h3 {
+      font-size: 25px;
+   }
+
+   .sub-pages-group p {
+      font-size: 14px;
+   }
+
+   .sub-pages-group h3 {
+      font-size: 23px;
+   }
+
+   /* Cookies CSS Start */
+   .info p {
+      font-size: 13px;
+   }
+
+   .button {
+      width: calc(50% / 2 - 10px);
+      font-size: 13px;
+   }
+
+   /* Cookies CSS End */
 
 }
 
@@ -517,168 +673,223 @@ input.pages-newsletter-input {
    .form-modal {
       width: 100%;
    }
+
    .logo img {
       max-width: 160px;
-  }
-  .pages-intro-wrapper {
-   padding: 10px;
-}
-.pages-intro-wrapper p {
-   font-size: 15px;
-}
-.site-image-wrapper img {
-   height: 200px;
-}
-.site-image-wrapper h3 {
-   font-size: 18px;
-}
-h2.section-heading {
-   font-size: 30px;
-}
-.our-prediction-wrapper p, .prop-prediction-wrapper p, .home-decision-wrapper p {
-   font-size: 14px;
-}
-.brand-logos {
-   height: 100%;
-   width: 100%;
-}
-.prop-prediction-content p {
-   font-size: 14px;
-}
-.prop-prediction-cards {
-   width: 100%;
-   min-height: 0;
-   margin-bottom: 30px;
-   text-align: center;
-}
-.pages-signup2-wrapper h3 {
-   font-size: 20px;
-}
-#contact {
-   padding: 0;
-}
+   }
 
-.form-container {
-   padding: 30px 5px;
-}
+   .pages-intro-wrapper {
+      padding: 10px;
+   }
 
-.contact-us-group h3 {
-   font-size: 35px;
-}
+   .pages-intro-wrapper p {
+      font-size: 15px;
+   }
 
-.contact-us-group p,
-.contact-us-group ul li {
-   font-size: 13px;
-}
+   .site-image-wrapper img {
+      height: 200px;
+   }
 
-.contact-us-group ul li a,
-.contact-us-group p a {
-   font-size: 14px;
-}
+   .site-image-wrapper h3 {
+      font-size: 18px;
+   }
 
-#contact input[type="text"],
-#contact input[type="email"],
-#contact input[type="tel"],
-#contact input[type="url"],
-#contact textarea,
-#contact select {
-   padding: 10px;
-   font-size: 12px;
-}
+   h2.section-heading {
+      font-size: 30px;
+   }
 
-#contact button[type="submit"] {
-   width: 40%;
-   padding: 12px;
-   font-size: 14px;
-   font-weight: 600;
-}
+   .our-prediction-wrapper p,
+   .prop-prediction-wrapper p,
+   .home-decision-wrapper p {
+      font-size: 14px;
+   }
 
-.contact-us-group a img {
-   height: 17px;
-   width: 17px;
-}
-.sports-play-cards {
-   width: 100%;
-}
-.our-tips-card {
-   height: 220px;
-}
-.our-tips-cards-text h3 {
-   font-size: 22px;
-}
-.about-us-cards {
-   width: 100%;
-}
-.about-us-cards:nth-child(2){
-   margin: 30px 0;
-}
-.pages-newsletter-wrapper h3 {
-   font-size: 22px;
-}
-input.pages-newsletter-input {
-   padding: 10px 20px;
-}
-.pages-newsletter-submit-button {
-   border-radius: 25px;
-   margin-top: 12px;
-   padding: 10px 30px;
-}
-.disclaimer-wrapper h3 {
-   font-size: 23px;
-}
-.footer-items {
-   width: 100%;
-   margin-bottom: 30px;
-}
-.footer-items:last-child {
-   margin-bottom: 0;
-}
-.footer-items h3 {
-   text-align: left;
-}
-.social-icons {
-   justify-content: flex-start;
-}
-.lg-btm a img {
-   max-width: 170px;
-}
-.prediction-group-text {
-   padding: 20px 5px;
-}
-.prediction-group-text h3 {
-   font-size: 22px;
-}
-.prediction-group-text p {
-   font-size: 14px;
-}
-.preiction-group {
-   padding: 10px;
-}
-.copyright p {
-   font-size: 11px;
-}
-.pages-newsletter-wrapper {
-padding: 1px 0;
-}
-.pages-banner-text h1 {
-   font-size: 35px;
-}
-.pages-banner-image {
-   height: 240px;
-}
+   .brand-logos {
+      height: 100%;
+      width: 100%;
+   }
 
-.right_side_first {
-    padding: 0px; 
-}
-.sub-pages-group {
-   padding: 10px;
-}
-.contact_section h3 {
-   font-size: 23px;
-}
-.sub-pages-group h3 {
-   font-size: 23px;
-}
+   .prop-prediction-content p {
+      font-size: 14px;
+   }
+
+   .prop-prediction-cards {
+      width: 100%;
+      min-height: 0;
+      margin-bottom: 30px;
+      text-align: center;
+   }
+
+   .pages-signup2-wrapper h3 {
+      font-size: 20px;
+   }
+
+   #contact {
+      padding: 0;
+   }
+
+   .form-container {
+      padding: 30px 5px;
+   }
+
+   .contact-us-group h3 {
+      font-size: 35px;
+   }
+
+   .contact-us-group p,
+   .contact-us-group ul li {
+      font-size: 13px;
+   }
+
+   .contact-us-group ul li a,
+   .contact-us-group p a {
+      font-size: 14px;
+   }
+
+   #contact input[type="text"],
+   #contact input[type="email"],
+   #contact input[type="tel"],
+   #contact input[type="url"],
+   #contact textarea,
+   #contact select {
+      padding: 10px;
+      font-size: 12px;
+   }
+
+   #contact button[type="submit"] {
+      width: 40%;
+      padding: 12px;
+      font-size: 14px;
+      font-weight: 600;
+   }
+
+   .contact-us-group a img {
+      height: 17px;
+      width: 17px;
+   }
+
+   .sports-play-cards {
+      width: 100%;
+   }
+
+   .our-tips-card {
+      height: 220px;
+   }
+
+   .our-tips-cards-text h3 {
+      font-size: 22px;
+   }
+
+   .about-us-cards {
+      width: 100%;
+   }
+
+   .about-us-cards:nth-child(2) {
+      margin: 30px 0;
+   }
+
+   .pages-newsletter-wrapper h3 {
+      font-size: 22px;
+   }
+
+   input.pages-newsletter-input {
+      padding: 10px 20px;
+   }
+
+   .pages-newsletter-submit-button {
+      border-radius: 25px;
+      margin-top: 12px;
+      padding: 10px 30px;
+   }
+
+   .disclaimer-wrapper h3 {
+      font-size: 23px;
+   }
+
+   .footer-items {
+      width: 100%;
+      margin-bottom: 30px;
+   }
+
+   .footer-items:last-child {
+      margin-bottom: 0;
+   }
+
+   .footer-items h3 {
+      text-align: left;
+   }
+
+   .social-icons {
+      justify-content: flex-start;
+   }
+
+   .lg-btm a img {
+      max-width: 170px;
+   }
+
+   .prediction-group-text {
+      padding: 20px 5px;
+   }
+
+   .prediction-group-text h3 {
+      font-size: 22px;
+   }
+
+   .prediction-group-text p {
+      font-size: 14px;
+   }
+
+   .preiction-group {
+      padding: 10px;
+   }
+
+   .copyright p {
+      font-size: 11px;
+   }
+
+   .pages-newsletter-wrapper {
+      padding: 1px 0;
+   }
+
+   .pages-banner-text h1 {
+      font-size: 35px;
+   }
+
+   .pages-banner-image {
+      height: 240px;
+   }
+
+   .right_side_first {
+      padding: 0px;
+   }
+
+   .sub-pages-group {
+      padding: 10px;
+   }
+
+   .contact_section h3 {
+      font-size: 23px;
+   }
+
+   .sub-pages-group h3 {
+      font-size: 23px;
+   }
+
+   /* Cookies CSS Start */
+   .info p {
+      font-size: 12px;
+   }
+
+   .buttons {
+      gap: 10px;
+   }
+
+   .button {
+      width: calc(80% / 2 - 10px);
+      font-size: 13px;
+   }
+
+   /* Cookies CSS End */
 
 
 }
