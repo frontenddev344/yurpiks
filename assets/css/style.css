@@ -1137,6 +1137,8 @@ input.pages-newsletter-input {
 
 /* Social Icons CSS End */
 
+/* Discalimer CSS Start */
+
 .disclaimer {
     background-image: url("../images/disclaimer-bg.png");
     background-repeat: no-repeat;
@@ -1168,7 +1170,10 @@ span.heading-like {
     color: #00FADF;
 }
 
-/* nfnbkjnk */
+
+/* Discalimer CSS End */
+
+/* Our Prediction Page CSS Start*/
 .prediction-group-section{
     background-image: url("../images/our-prediction-bg.png");
     background-position: center;
@@ -1228,6 +1233,7 @@ span.heading-like {
     font-size: 20px;
     color: #fff;
 }
+/* Our Prediction Page CSS End*/
 
 /* Sub Pages CSS Start */
 .sub-pages span.heading-like {
