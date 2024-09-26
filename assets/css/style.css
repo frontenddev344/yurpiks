@@ -1540,7 +1540,7 @@ input.form-control.sub_btn:hover {
     position: fixed;
     bottom: -100%;
     width: 100%;
-    background-color: #280B70;
+    background-color: #000;
     padding: 15px 25px 22px;
     transition: all 1s ease-in-out;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
@@ -1576,17 +1576,16 @@ input.form-control.sub_btn:hover {
     padding: 8px 0;
     border: 1px solid transparent;
     border-radius: 4px;
-    background-color: #cf2d5e;
-    color: #fff;
+    background-color:#00FADF;
+    color: #000;
     cursor: pointer;
     transition: all 0.7s ease;
     font-weight: 600;
 }
 
 .button:hover {
-    border-color: #000;
-    color: #cf2d5e;
-    background-color: #fff;
+    border-color: #fff;
+      background-color: #fff;
 
 }
 
