@@ -799,7 +799,7 @@ fieldset {
     margin-top: 10px;
 }
 
-/* nklds */
+/* Our Tips CSS Start */
 
 .our-tips-card {
     height: 400px;
@@ -835,7 +835,9 @@ fieldset {
     color: #fff;
 }
 
-/* njndkjfn  */
+/* Our Tips CSS End */
+
+/* About Us Cards CSS Start */
 
 .about-us-cards-wrapper {
     display: flex;
@@ -885,16 +887,7 @@ fieldset {
     font-weight: bold;
 }
 
-/* dfjkldnkl */
-
-
-
-
-
-
-
-
-
+/* About Us Cards CSS End */
 
 /* Home Page newsletter CSS Start */
 .pages-newsletter-section {
