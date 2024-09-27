@@ -339,7 +339,7 @@ h2.section-heading {
     position: relative;
     width: 900px;
     height: auto;
-    margin-top: 4em;
+    margin-top: 2em;
     left: 50%;
     transform: translateX(-50%);
     border-radius: 20px;
